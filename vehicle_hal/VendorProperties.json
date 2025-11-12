@@ -1,0 +1,20 @@
+{
+    "comment": "Vendor-specific vehicle properties for custom automotive implementation",
+    "apiVersion": 1,
+    "properties": [
+        {
+            "comment": "Custom vendor property (CUSTOM_VENDOR_PROPERTY)",
+            "property": 557087745,
+            "access": "VehiclePropertyAccess::READ_WRITE",
+            "changeMode": "VehiclePropertyChangeMode::ON_CHANGE",
+            "areas": [
+                {
+                    "defaultValue": {
+                        "int32Values": [0]
+                    },
+                    "areaId": 0
+                }
+            ]
+        }
+    ]
+}
